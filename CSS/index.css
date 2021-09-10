@@ -22,6 +22,33 @@ font-weight: 800;
     text-align: center;
     background-color: rgba(0, 0, 0,);
   }
+  .logo{
+text-align: left;
+color: white;
+  }
+  .slider{
+text-align: left;
+color: white;
 
+  }
 
+  .btn-one{
+    text-align: center;
+    color: white;
+  }
+  .btn-two{
+text-align:center;
+color: blue;
+
+  }
+.menu{
+  text-align:center;
+  color: white
+}
+
+.social-icons{
+  text-align: right;
+  color: white;
+
+}
 
