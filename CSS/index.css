@@ -25,11 +25,13 @@ font-weight: 800;
   .logo{
 text-align: left;
 color: white;
+position: relative;
+left: 50px;
   }
   .slider{
 text-align: left;
 color: white;
-
+margin-left: 140px;
   }
 
   .btn-one{
@@ -43,12 +45,26 @@ color: blue;
   }
 .menu{
   text-align:center;
-  color: white
+  color: white;
+  position: relative;
+  bottom: 60px;
+  
+}
+.menu{
+
+  margin-bottom: 60px;
 }
 
 .social-icons{
   text-align: right;
   color: white;
+  margin-top: -70px;
+  position: relative;
+  bottom: 50px;
+  right: 50px;
 
 }
-
+.btn{
+  position: relative;
+  left: 50px;
+}
