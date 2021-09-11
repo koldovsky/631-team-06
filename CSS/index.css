@@ -55,8 +55,8 @@ color: blue;
 position: relative;
 bottom: 320px;
 }
- .menu{
-  color: white;
+ .menu_nav{
+  color: aliceblue;
   text-align: center;
   position: relative;
   bottom: 60px;
@@ -84,7 +84,7 @@ bottom: 320px;
   top: 20px;
 }
 .strateg-consult {
-  background: url(../img/Strategy.consult.jpeg);
+  background:linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/Strategy.consult.jpeg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -125,4 +125,7 @@ bottom: 320px;
 .slider-main-text{
 position: relative;
 top: 80px;
+}
+.now-text{
+  font-size: 30px;
 }
