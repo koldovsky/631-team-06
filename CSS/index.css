@@ -1,17 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+:root {
+  font-family: 'Asap', sans-serif;
+}
+
 .background {
     background: url(../img/34.jpg.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
+    width: 1540px;
 
     }
 
 .intro_title {
 color: white;
-font-size: 50px;
-font-weight: 800;
+font-size: 44px;
+font-weight: 600;
 text-align: center;
+
 
   }
   .slider_item{
@@ -19,16 +27,22 @@ text-align: center;
       
       
   }
-  .header {
+
+   
+  header.menu a {
     text-align: center;
-    background-color: rgba(0, 0, 0,);
+    text-decoration: none;
+    background-color: #e78888;
   }
   .logo{
 text-align: left;
 color: white;
 position: relative;
 left: 50px;
+font-size: 16px;
+
   }
+  
   .slider{
 text-align: left;
 color: white;
@@ -39,33 +53,62 @@ margin-left: 140px;
     text-align: center;
     color: white;
   }
-  .btn-two{
+  .btn-two {
 text-align:center;
 color: blue;
-
-  }
-.menu{
-  text-align:center;
+}
+ .menu{
   color: white;
+  text-align: center;
   position: relative;
   bottom: 60px;
-  
-}
-.menu{
+  margin-top: 38px;
+  }
 
-  margin-bottom: 60px;
-}
-
+  menu {
+    margin-bottom: 60px;
+    text-align: center;
+    
+  }
 .social-icons{
   text-align: right;
-  color: white;
-  margin-top: -70px;
+  color: rgb(133, 129, 129);
+  margin-top: -96px;
   position: relative;
   bottom: 50px;
   right: 50px;
-
 }
+
 .btn{
   position: relative;
   left: 50px;
 }
+.strateg-consult {
+  background: url(../img/Strategy.consult.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    width: 1520px;
+
+    }
+    
+
+.about {
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Asap', sans-serif;
+}
+.btn-read-more{
+  color: white;
+  text-align: center;
+ 
+}
+.pages {
+  text-align: left;
+  left: 50px;
+  display: block;
+}
+
