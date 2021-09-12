@@ -166,3 +166,21 @@ top: 80px;
   letter-spacing: 1px;
   line-height: 25px;
 }
+.map {
+  background:linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/map.jpg);
+  height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    width: 1600px;
+    position: relative;
+    bottom: 320px;
+    color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  }
+  
