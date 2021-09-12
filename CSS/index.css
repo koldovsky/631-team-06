@@ -167,3 +167,7 @@ top: 80px;
 .now-text{
   font-size: 30px;
 }
+.btn-read-more  {
+  letter-spacing: 1px;
+  line-height: 25px;
+}
