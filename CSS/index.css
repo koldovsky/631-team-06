@@ -60,7 +60,7 @@ margin: 46px 500px;
 cursor: pointer;
   }
   .btn-two {
-text-align:center;
+   text-align:center;
 position: relative;
 bottom: 435px;
 left: 140px;
@@ -189,3 +189,22 @@ top: 80px;
   line-height: 25px;
   }
   
+  a:link {
+    color: hsl(0, 0%, 100%);
+}
+
+a:visited {
+    color: #f0f8f0;
+}
+
+a:hover {
+    color: rgb(252, 247, 249);
+    text-decoration: white;
+    background-color:white;
+}
+
+a:active {
+    color: #f5f5fa;
+    text-decoration: white;
+    background-color: white;
+}
