@@ -44,7 +44,7 @@ font-size: 16px;
 
   .btn-one{
     position: relative;
-bottom: 320px;
+bottom: 300px;
 background-color: #080808;
 border: solid;
 border-bottom-color: rgb(255, 255, 255);
@@ -62,7 +62,8 @@ cursor: pointer;
   .btn-two {
 text-align:center;
 position: relative;
-bottom: 320px;
+bottom: 435px;
+left: 140px;
 background-color: #2431dd;
 border: none;
 padding: 14px 25px;
@@ -76,7 +77,7 @@ cursor: pointer;
   color: aliceblue;
   text-align: center;
   position: relative;
-  bottom: 60px;
+  bottom: 90px;
   margin-top: 38px;
   }
 
@@ -90,8 +91,8 @@ cursor: pointer;
   color: rgb(255, 255, 255);
   margin-top: -96px;
   position: relative;
-  top: 10px;
-  right: 150px;
+  bottom: 20px;
+  right: 250px;
   border-color: white;
 }
 
@@ -116,7 +117,7 @@ cursor: pointer;
     background-position-x: center;
     width: 1600px;
     position: relative;
-    bottom: 70px;
+    bottom: 320px;
 
     }
     
