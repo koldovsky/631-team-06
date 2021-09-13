@@ -274,3 +274,11 @@ cursor: pointer;
 .follow{
   color: white;
 }
+.buttoms-footer{
+  -webkit-column-count:2;  
+    -moz-column-count:2;  
+    column-count:2;
+    position:relative;
+    left:200px;
+      
+}
