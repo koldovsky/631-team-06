@@ -208,3 +208,45 @@ a:active {
     text-decoration: white;
     background-color: white;
 }
+.roundabout{
+ text-align: center;
+  position: relative;
+  bottom: 1000px;
+  color: white;
+}
+.black{
+
+  background: linear-gradient(to top, rgb(20, 20, 20), rgb(20, 20, 20));
+  
+  
+}
+.partners{
+color: white;
+}
+.berkshire{
+  color: white;
+}
+.ibm {
+  color: white;
+}
+
+.goldman-sachs {
+  color: white;
+}
+.page-email {
+  color: white;
+}
+.sumbit {
+  
+position: relative;
+bottom: 10px;
+right: 280px;
+background-color: #2431dd;
+border: none;
+padding: 5px 550px;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 14px 450px;
+cursor: pointer;
+}
