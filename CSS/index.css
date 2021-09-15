@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
-*{
-  margin: 0;
-  padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
+
 :root {
-  font-family: 'Asap', sans-serif;
+    font-family: 'Asap', sans-serif;
 }
+
 .header {
-  
     background: linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/34.jpg.jpg);
     height: 110vh;
     background-repeat: no-repeat;
@@ -15,31 +16,42 @@
     background-position-x: center;
     width: 1600px;
 }
+
 .menu a {
     text-align: center;
     text-decoration: none;
-   
-  }
-  .menu{
+}
+
+.menu {
     color: #fff;
     text-decoration: none;
-  }
-
-.btn{
-  position: relative;
-  left: 150px;
-  top: 20px;
-background-color: rgb(22, 19, 19);
-border: none;
-padding: 14px 25px;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-margin: 4px 2px;
-cursor: pointer;
 }
+
+.logo {
+    font-size: 30px;
+    color: white;
+}
+
+.button {
+    font-size: 10px;
+}
+
+.container {
+    max-width: 980px;
+    margin: auto;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
 .strateg-consult {
-  background:linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/Strategy.consult.jpeg);
+    background: linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/Strategy.consult.jpeg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,62 +59,53 @@ cursor: pointer;
     width: 1600px;
     position: relative;
     bottom: 320px;
-
-    }
-    
+}
 
 .about {
-  color: white;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  font-size: 20px;
-  position: relative;
-  left: 160px;
-  top: 120px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    position: relative;
+    left: 160px;
+    top: 120px;
 }
-.btn-read-more{
-  color: white;
-  text-align: center;
-  position: relative;
-  left: 160px;
-  top: 120px;
- 
+
+.btn-read-more {
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 160px;
+    top: 120px;
 }
+
 .pages {
-  text-align: left;
-  left: 50px;
-  position: absolute;
-  top: 200px;
-  height: 180vh;
-  
-  
-
-  overflow: hidden;
-}
-.accordion{
-  color:white;
-  position: relative;
-  top: 70px;
-  left: 180px;
-  
-
+    text-align: left;
+    left: 50px;
+    position: relative;
+    top: 200px;
+    height: 100vh;
+    overflow: hidden;
 }
 
-.slider-main-text{
-position: relative;
-top: 80px;
+.slider-main-text {
+    position: relative;
+    top: 80px;
 }
-.now-text{
-  font-size: 30px;
+
+.now-text {
+    font-size: 30px;
 }
-.btn-read-more  {
-  letter-spacing: 1px;
-  line-height: 25px;
+
+.btn-read-more {
+    letter-spacing: 1px;
+    line-height: 25px;
 }
+
 .map {
-  background:linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/map.jpg);
-  height: 100vh;
+    background: linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/map.jpg);
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -110,104 +113,95 @@ top: 80px;
     position: relative;
     bottom: 347px;
     color: white;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  font-size: 20px;
-  letter-spacing: 1px;
-  line-height: 25px;
-  }
-  
-  a:link {
-    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 25px;
 }
 
-a:visited {
-    color: #f0f8f0;
+.roundabout {
+    text-align: center;
+    position: relative;
+    bottom: 1000px;
+    color: white;
 }
 
-a:hover {
-    color: rgb(252, 247, 249);
-    text-decoration: white;
-    background-color:white;
+.black {
+    background: linear-gradient(to top, rgb(20, 20, 20), rgb(20, 20, 20));
 }
 
-a:active {
-    color: #f5f5fa;
-    text-decoration: white;
-    background-color: white;
+.partners {
+    color: white;
 }
-.roundabout{
- text-align: center;
-  position: relative;
-  bottom: 1000px;
-  color: white;
-}
-.black{
 
-  background: linear-gradient(to top, rgb(20, 20, 20), rgb(20, 20, 20));
-  
-  
+.berkshire {
+    color: white;
 }
-.partners{
-color: white;
-}
-.berkshire{
-  color: white;
-}
+
 .ibm {
-  color: white;
+    color: white;
 }
 
 .goldman-sachs {
-  color: white;
+    color: white;
 }
+
 .page-email {
-  color: white;
+    color: white;
 }
+
 .sumbit {
-  
-position: relative;
-bottom: 10px;
-right: 280px;
-background-color: #2431dd;
-border: none;
-padding: 5px 550px;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-margin: 14px 450px;
-cursor: pointer;
+    position: relative;
+    bottom: 10px;
+    right: 280px;
+    background-color: #2431dd;
+    border: none;
+    padding: 5px 550px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 14px 450px;
+    cursor: pointer;
 }
+
 .bottom {
-  background: linear-gradient(to top, rgb(20, 20, 20), rgb(20, 20, 20));
+    background: linear-gradient(to top, rgb(20, 20, 20), rgb(20, 20, 20));
 }
+
 .footer {
-  color: white;
+    color: white;
 }
-.Icons{
-  color: white;
+
+.Icons {
+    color: white;
 }
-.Subscribe{
-  color: white;
+
+.Subscribe {
+    color: white;
 }
-.Created-by{
-  color: white;
+
+.Created-by {
+    color: white;
 }
-.jp-text{
-  position: relative;
+
+.jp-text {
+    position: relative;
 }
-.support-company{
-  color: white;
+
+.support-company {
+    color: white;
 }
-.follow{
-  color: white;
+
+.follow {
+    color: white;
 }
-.buttoms-footer{
-  -webkit-column-count:2;  
-    -moz-column-count:2;  
-    column-count:2;
-    position:relative;
-    left:200px;
-      
+
+.buttoms-footer {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    position: relative;
+    left: 200px;
 }
