@@ -14,11 +14,15 @@
     background-size: cover;
     background-position-x: center;
     width: 1600px;
-
+}
 .menu a {
     text-align: center;
     text-decoration: none;
    
+  }
+  .menu{
+    color: #fff;
+    text-decoration: none;
   }
 
 .btn{
