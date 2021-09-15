@@ -2,93 +2,50 @@
 *{
   margin: 0;
   padding: 0;
+ 
 }
 :root {
   font-family: 'Asap', sans-serif;
 }
 
-.background {
-  
-    background: linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/34.jpg.jpg);
-    height: 110vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    width: 1600px;
-    
+.header {
 
-    }
+  background: linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/34.jpg.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  max-width: 1600px;
+  min-width: 560px;
+}
 
+  .logo {
+    font-size: 30px;
+    color: white;
+}
+.button{
+  font-size: 10px;
+}
+.container{
+max-width: 980px;
+margin: auto;
+
+}
+.menu{
+display: flex;
+flex-direction: row;
+
+margin: 5px;
+padding: 5px;
+pos
+
+}
 .menu a {
     text-align: center;
     text-decoration: none;
    
   }
-  .logo{
-text-align: left;
-color: white;
-position: relative;
-left: 150px;
-top: 20px;
-font-size: 16px;
 
-  }
-  
- 
-
-  .btn-one{
-    position: relative;
-bottom: 300px;
-background-color: #080808;
-border: solid;
-border-bottom-color: rgb(255, 255, 255);
-border-top-color: rgb(255, 255, 255);
-border-right-color: rgb(255, 255, 255);
-border-left-color: rgb(255, 255, 255);
-text-align:center;
-padding: 11px 22px;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-margin: 46px 500px;
-cursor: pointer;
-  }
-  .btn-two {
-   text-align:center;
-position: relative;
-bottom: 435px;
-left: 140px;
-background-color: #2431dd;
-border: none;
-padding: 14px 25px;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-margin: 44px 550px;
-cursor: pointer;
-}
- .menu_nav{
-  color: aliceblue;
-  text-align: center;
-  position: relative;
-  bottom: 90px;
-  margin-top: 38px;
-  }
-
-  menu {
-    margin-bottom: 60px;
-    text-align: center;
-    
-  }
-.social-icons{
-  text-align: right;
-  color: rgb(255, 255, 255);
-  margin-top: -96px;
-  position: relative;
-  bottom: 20px;
-  right: 250px;
-  border-color: white;
-}
 
 .btn{
   position: relative;
@@ -137,9 +94,9 @@ cursor: pointer;
 .pages {
   text-align: left;
   left: 50px;
-  position: absolute;
+  position: relative;
   top: 200px;
-  height: 180vh;
+  height: 100vh;
   
   
 
