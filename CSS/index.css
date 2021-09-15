@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
-
-
+*{
+  margin: 0;
+  padding: 0;
+}
 :root {
   font-family: 'Asap', sans-serif;
 }
@@ -13,8 +15,6 @@
     background-position-x: center;
     width: 1600px;
 
-}
- 
 .menu a {
     text-align: center;
     text-decoration: none;
