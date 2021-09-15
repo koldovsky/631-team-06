@@ -1,153 +1,153 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
-    font-family: 'Asap', sans-serif;
+  font-family: 'Asap', sans-serif;
 }
 
 .header {
-    background: linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/34.jpg.jpg);
-    height: 110vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    width: 1600px;
-    align-items: center;
+  background: linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/34.jpg.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 140vh;
+  width: 1600px;
+  align-items: center;
+  background-size: cover;
 }
 
 .menu a {
-    text-align: center;
-    text-decoration: none;
+  text-align: center;
+  text-decoration: none;
 }
 
 .menu {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .logo {
-    font-size: 30px;
-    color: white;
+  font-size: 30px;
+  color: white;
 }
 
 .button {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 .container {
-    max-width: 980px;
-    margin: auto;
-    text-decoration: none;
-    
+  max-width: 980px;
+  margin: auto;
+  text-decoration: none;
 }
 
 .menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-decoration: none;
-    color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
 }
+
 .text-header {
   justify-content: center;
   flex-direction: column;
   display: flex;
   color: #fff;
-  bottom: 100px;
-
+  position: absolute;
+  padding-top: 500px;
 }
 
 .strateg-consult {
-    background: linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/Strategy.consult.jpeg);
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    width: 1600px;
-    position: relative;
-    bottom: 320px;
+  background: linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/Strategy.consult.jpeg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  width: 1600px;
+  position: relative;
+  bottom: 320px;
 }
 
 .about {
-    color: white;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    font-size: 20px;
-    position: relative;
-    left: 160px;
-    top: 120px;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  position: relative;
+  left: 160px;
+  top: 120px;
 }
 
 .btn-read-more {
-    color: white;
-    text-align: center;
-    position: relative;
-    left: 160px;
-    top: 120px;
+  color: white;
+  text-align: center;
+  position: relative;
+  left: 160px;
+  top: 120px;
 }
 
 .pages {
-    text-align: left;
-    left: 50px;
-    position: relative;
-    top: 200px;
-    height: 100vh;
-    overflow: hidden;
+  text-align: left;
+  left: 50px;
+  position: relative;
+  top: 200px;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .slider-main-text {
-    position: relative;
-    top: 80px;
+  position: relative;
+  top: 80px;
 }
 
 .now-text {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .btn-read-more {
-    letter-spacing: 1px;
-    line-height: 25px;
+  letter-spacing: 1px;
+  line-height: 25px;
 }
 
 .map {
-    background: linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/map.jpg);
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    width: 1600px;
-    position: relative;
-    bottom: 347px;
-    color: white;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    font-size: 20px;
-    letter-spacing: 1px;
-    line-height: 25px;
+  background: linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/map.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  width: 1600px;
+  position: relative;
+  bottom: 347px;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 25px;
 }
 
 .roundabout {
-    text-align: center;
-    position: relative;
-    bottom: 1000px;
-    color: white;
+  text-align: center;
+  position: relative;
+  bottom: 1000px;
+  color: white;
 }
 
 .black {
-    background: linear-gradient(to top, rgb(20, 20, 20), rgb(20, 20, 20));
+  background: linear-gradient(to top, rgb(20, 20, 20), rgb(20, 20, 20));
 }
 
 .partners {
-    color: white;
+  color: white;
 }
 
 .berkshire {
-    color: white;
+  color: white;
   margin: 0;
   padding: 0;
 }
@@ -157,18 +157,6 @@
   --main-color: white;
 }
 
-.header {
-  background: linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/34.jpg.jpg);
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: center;
-  max-width: 1600px;
-  min-width: 560px;
-  
-  
-}
-
 .logo a {
   font-size: 30px;
   color: white;
@@ -176,14 +164,12 @@
   display: flex;
   text-decoration: none;
   padding: 5px;
-  
 }
 
-.button:hover{
+.button:hover {
   font-size: 10px;
   background-color: #fff;
   border-radius: 4px;
-
 }
 
 .container {
@@ -192,35 +178,47 @@
   display: flex;
   align-items: center;
 }
-.social-icons:hover{
-margin-left: 2px;
-background-color: #fff;
-  border-radius: 1px;
 
+.social-icons:hover {
+  margin-left: 2px;
+  background-color: #fff;
+  border-radius: 1px;
 }
-.bot:hover{
-  padding: 10px;
+
+.social-icons {
+  display: flex;
+}
+
+.bot:hover {
   background-color: #fff;
   border-radius: 2px;
   text-decoration: none;
+  padding-top: 100px;
 }
-.tom:hover{
-  padding: 10px;
-  background-color: rgb(7, 34, 182);
+
+.tom:hover {
   border-radius: 4px;
   text-decoration: none;
+  border-color:#2518e0 rgb(36, 21, 250) hsl(244, 90%, 54%) hsl(234, 87%, 39%);
+  border-style:solid;
+  border-width:1px;
+  background:#FFFF99;
+
+}
+
+.menu-nav {
+  display: flex;
 }
 
 .menu-nav a {
   color: #fff;
   text-decoration: none;
   display: flex;
- flex-direction: row;
-justify-content: center;
-margin-left: 6px;
- padding: 10px 15px;
- align-items: center;
- 
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 6px;
+  padding: 10px 15px;
+  align-items: center;
 }
 
 .strateg-consult {
@@ -314,29 +312,29 @@ margin-left: 6px;
 }
 
 .ibm {
-    color: white;
+  color: white;
 }
 
 .goldman-sachs {
-    color: white;
+  color: white;
 }
 
 .page-email {
-    color: white;
+  color: white;
 }
 
 .sumbit {
-    position: relative;
-    bottom: 10px;
-    right: 280px;
-    background-color: #2431dd;
-    border: none;
-    padding: 5px 550px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 14px 450px;
-    cursor: pointer;
+  position: relative;
+  bottom: 10px;
+  right: 280px;
+  background-color: #2431dd;
+  border: none;
+  padding: 5px 550px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 14px 450px;
+  cursor: pointer;
   position: relative;
   bottom: 10px;
   right: 280px;
@@ -351,43 +349,43 @@ margin-left: 6px;
 }
 
 .bottom {
-    background: linear-gradient(to top, rgb(20, 20, 20), rgb(20, 20, 20));
+  background: linear-gradient(to top, rgb(20, 20, 20), rgb(20, 20, 20));
 }
 
 .footer {
-    color: white;
+  color: white;
 }
 
 .Icons {
-    color: white;
+  color: white;
 }
 
 .Subscribe {
-    color: white;
+  color: white;
 }
 
 .Created-by {
-    color: white;
+  color: white;
 }
 
 .jp-text {
-    position: relative;
+  position: relative;
 }
 
 .support-company {
-    color: white;
+  color: white;
 }
 
 .follow {
-    color: white;
+  color: white;
 }
 
 .buttoms-footer {
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-    position: relative;
-    left: 200px;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  position: relative;
+  left: 200px;
   color: white;
 }
 
