@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
-*{
+* {
   margin: 0;
   padding: 0;
- 
 }
+
 :root {
   font-family: 'Asap', sans-serif;
+  --main-color: white;
 }
 
 .header {
-
   background: linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/34.jpg.jpg);
   height: 100vh;
   background-repeat: no-repeat;
@@ -19,41 +19,42 @@
   min-width: 560px;
 }
 
-  .logo {
-    font-size: 30px;
-    color: white;
+.logo {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  display: flex;
+  margin-right: 90px;
+  text-decoration: none;
 }
-.button{
+
+.button {
   font-size: 10px;
 }
-.container{
-max-width: 980px;
-margin: auto;
-text-decoration: none;
 
+.container {
+  max-width: 980px;
+  text-decoration: none;
 }
-.menu{
-display: flex;
-flex-direction: row;
-justify-content: center;
-text-decoration: none;
-color: white;
 
-
+.menu-nav a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .strateg-consult {
-  background:linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/Strategy.consult.jpeg);
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    width: 1600px;
-    position: relative;
-    bottom: 320px;
-
-    }
-    
+  background: linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/Strategy.consult.jpeg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  width: 1600px;
+  position: relative;
+  bottom: 320px;
+}
 
 .about {
   color: white;
@@ -65,79 +66,75 @@ color: white;
   left: 160px;
   top: 120px;
 }
-.btn-read-more{
+
+.btn-read-more {
   color: white;
   text-align: center;
   position: relative;
   left: 160px;
   top: 120px;
- 
 }
+
 .pages {
   text-align: left;
   left: 50px;
   position: relative;
   top: 200px;
   height: 100vh;
-  
-  
-
   overflow: hidden;
 }
 
-.slider-main-text{
-position: relative;
-top: 80px;
+.slider-main-text {
+  position: relative;
+  top: 80px;
 }
-.now-text{
+
+.now-text {
   font-size: 30px;
 }
-.btn-read-more  {
+
+.btn-read-more {
   letter-spacing: 1px;
   line-height: 25px;
 }
+
 .map {
-  background:linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/map.jpg);
+  background: linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/map.jpg);
   height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    width: 1600px;
-    position: relative;
-    bottom: 347px;
-    color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  width: 1600px;
+  position: relative;
+  bottom: 347px;
+  color: white;
   text-align: center;
   margin: 0;
   padding: 0;
   font-size: 20px;
   letter-spacing: 1px;
   line-height: 25px;
-  }
-  
- 
+}
 
-
-
-
-
-.roundabout{
- text-align: center;
+.roundabout {
+  text-align: center;
   position: relative;
   bottom: 1000px;
   color: white;
 }
-.black{
 
+.black {
   background: linear-gradient(to top, rgb(20, 20, 20), rgb(20, 20, 20));
-  
-  
 }
-.partners{
-color: white;
-}
-.berkshire{
+
+.partners {
   color: white;
 }
+
+.berkshire {
+  color: white;
+}
+
 .ibm {
   color: white;
 }
@@ -145,52 +142,61 @@ color: white;
 .goldman-sachs {
   color: white;
 }
+
 .page-email {
   color: white;
 }
+
 .sumbit {
-  
-position: relative;
-bottom: 10px;
-right: 280px;
-background-color: #2431dd;
-border: none;
-padding: 5px 550px;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-margin: 14px 450px;
-cursor: pointer;
+  position: relative;
+  bottom: 10px;
+  right: 280px;
+  background-color: #2431dd;
+  border: none;
+  padding: 5px 550px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 14px 450px;
+  cursor: pointer;
 }
+
 .bottom {
   background: linear-gradient(to top, rgb(20, 20, 20), rgb(20, 20, 20));
 }
+
 .footer {
   color: white;
 }
-.Icons{
+
+.Icons {
   color: white;
 }
-.Subscribe{
+
+.Subscribe {
   color: white;
 }
-.Created-by{
+
+.Created-by {
   color: white;
 }
-.jp-text{
+
+.jp-text {
   position: relative;
 }
-.support-company{
+
+.support-company {
   color: white;
 }
-.follow{
+
+.follow {
   color: white;
 }
-.buttoms-footer{
-  -webkit-column-count:2;  
-    -moz-column-count:2;  
-    column-count:2;
-    position:relative;
-    left:200px;
-      
+
+.buttoms-footer {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  position: relative;
+  left: 200px;
 }
