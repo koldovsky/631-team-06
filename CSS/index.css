@@ -29,14 +29,17 @@
 .container{
 max-width: 980px;
 margin: auto;
+text-decoration: none;
 
 }
 .menu{
 display: flex;
 flex-direction: row;
+justify-content: center;
+text-decoration: none;
+color: white;
 
-margin: 5px;
-padding: 5px;
+
 }
 
 .strateg-consult {
@@ -81,14 +84,6 @@ padding: 5px;
 
   overflow: hidden;
 }
-.accordion{
-  color:white;
-  position: relative;
-  top: 70px;
-  left: 180px;
-  
-
-}
 
 .slider-main-text{
 position: relative;
@@ -119,25 +114,12 @@ top: 80px;
   line-height: 25px;
   }
   
-  a:link {
-    color: hsl(0, 0%, 100%);
-}
+ 
 
-a:visited {
-    color: #f0f8f0;
-}
 
-a:hover {
-    color: rgb(252, 247, 249);
-    text-decoration: white;
-    background-color:white;
-}
 
-a:active {
-    color: #f5f5fa;
-    text-decoration: white;
-    background-color: white;
-}
+
+
 .roundabout{
  text-align: center;
   position: relative;
