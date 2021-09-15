@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
 
+
 :root {
   font-family: 'Asap', sans-serif;
 }
-
-.background {
+.header {
   
     background: linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/34.jpg.jpg);
     height: 110vh;
@@ -12,89 +12,14 @@
     background-size: cover;
     background-position-x: center;
     width: 1600px;
-    
 
-    }
-
-.intro_title {
-color: white;
-font-size: 44px;
-font-weight: 600;
-text-align: center;
 }
-
-
  
 .menu a {
     text-align: center;
     text-decoration: none;
    
   }
-  .logo{
-text-align: left;
-color: white;
-position: relative;
-left: 150px;
-top: 20px;
-font-size: 16px;
-
-  }
-  
- 
-
-  .btn-one{
-    position: relative;
-bottom: 300px;
-background-color: #080808;
-border: solid;
-border-bottom-color: rgb(255, 255, 255);
-border-top-color: rgb(255, 255, 255);
-border-right-color: rgb(255, 255, 255);
-border-left-color: rgb(255, 255, 255);
-text-align:center;
-padding: 11px 22px;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-margin: 46px 500px;
-cursor: pointer;
-  }
-  .btn-two {
-   text-align:center;
-position: relative;
-bottom: 435px;
-left: 140px;
-background-color: #2431dd;
-border: none;
-padding: 14px 25px;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-margin: 44px 550px;
-cursor: pointer;
-}
- .menu_nav{
-  color: aliceblue;
-  text-align: center;
-  position: relative;
-  bottom: 90px;
-  margin-top: 38px;
-  }
-
-  menu {
-    margin-bottom: 60px;
-    text-align: center;
-    
-  }
-.social-icons{
-  text-align: right;
-  color: rgb(255, 255, 255);
-  margin-top: -96px;
-  position: relative;
-  bottom: 20px;
-  right: 250px;
-  border-color: white;
-}
 
 .btn{
   position: relative;
