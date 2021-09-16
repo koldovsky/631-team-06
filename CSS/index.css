@@ -195,7 +195,7 @@
 .social-icons:hover {
   margin-left: 20px;
   background-color: #fff;
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 .social-icons {
