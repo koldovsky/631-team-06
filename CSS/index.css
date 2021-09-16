@@ -18,6 +18,7 @@
   background-size: cover;
 }
 
+<<<<<<< HEAD
 .accordion {
   position: absolute;
   text-align: center;
@@ -55,3 +56,54 @@ background-color: white;
 background-image: url(../img.icons8.com/material-sharp/48/000000/youtube-play.png);
 background-color: white;
 }
+=======
+.logo a {
+  font-size: 26px;
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  position: absolute;
+  top: 25px;
+}
+
+.button {
+  position: relative;
+  top: 75px;
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.menu-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.menu-nav a :hover {
+  opacity: 0, 5;
+  transition: all .07s ease-in-out;
+}
+
+.menu-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons {
+  font-size: 5px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 80px;
+  padding-bottom: 45px;
+  position: relative;
+  right: 70px;
+  bottom: 40px;
+}
+>>>>>>> ad61e7082a16747d514e808753661bf2caf52ddd
