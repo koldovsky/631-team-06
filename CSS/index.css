@@ -131,3 +131,38 @@ width: 50px;
   top: 50px;
 
 }
+.consult-main{
+  background: linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/Strategy.consult.jpeg);  max-width: 1550px;
+  min-width: 320px;
+}
+.text-now{
+  color: white;
+  font-size: 17px;
+  position: relative;
+  left: 0px;
+}
+.more-text{
+  color: white;
+  font-size: 17px;
+  position: relative;
+  left: 0px;
+}
+.btn-read-more{
+  color: white;
+  position: relative;
+  left: 600px;
+  top: 130px;
+  font-size: 19px;
+}
+.about{
+  top: 110px;
+  font-size: 17px;
+  color: white;
+  position: relative;
+  left: 650px;
+}
+.pages{
+  position: relative;
+  bottom: 360px;
+  left: 130px;
+}
