@@ -45,6 +45,7 @@
   text-decoration: none;
   font-size: 18px;
   margin: 10px;
+  transition: all .07s ease-in-out;
 }
 
 .menu-nav a :hover {
