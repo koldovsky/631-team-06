@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <title>Support Company</title>
     <link rel="stylesheet" href="CSS/index.css">
 </head>
@@ -25,6 +26,7 @@
                     <a href="#">Services</a>
                     <a href="#">Contacts</a>
                 </div>
+                </div>
             </div>
                 <nav>
                     <div class="social-icons">
@@ -36,35 +38,53 @@
                             <img src="https://img.icons8.com/material-sharp/48/000000/youtube-play.png" alt="Youtube"></a>
                     </div>
                 </nav>
-                <div class="text-header">
-                    <h3>
-                        Business consulting services
-                    </h3>
-                    <button>
-                What we are created for?
-            </button>
-                    <h5>
-                        To help entrepreneurs improve their business.
-                    </h5>
-                    <button>
-                What if I don’t know what plan I need?
-            </button>
-                    <h5>
-                        Our specialist can help you assess your particular issue and define which plan suits you the most. Feel free to contact us.
-                    </h5>
-                    <button>
-                What payment options do you provide?
-            </button>
-                    <h5>
-                        We offer a variety of payment methods. We accept cash, checks, and the majority of credit cards such as Visa, MasterCard, and American Express.
-                    </h5>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                          <h2>
+                            Business consulting services 
+                          </h2>
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What we are created for?
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse-collapse-show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>To help entrepreneurs improve their business.</strong>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What if I don’t know what plan I need?
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Our specialist can help you assess your particular issue and define which plan suits you the most. Feel free to contact us.</strong> 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What payment options do you provide?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>We offer a variety of payment methods. We accept cash, checks, and the majority of credit cards such as Visa, MasterCard, and American Express.</strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="but">
+                    <button>Our Services</button>
+                    <div class="tom">
+                    <button>Receive Offers</button>
+                    </div>
                 </div>
-            <div class="bot">
-                <a href="#">Our Services</a>
-            <div class="tom">
-                <a href="#">Receive Offers</a>
-            </div>
-            </div>
     </header>
 
     <main>
@@ -81,10 +101,6 @@
                     business world, every<br> business must operate efficiently, grow and succeed. It is very important to use<br> information and technology correctly to remain a competitor in your market. We can
                     <br> help you expand your boundaries and achieve your planned results.
                 </h5>
-                    <div class="buttons-text">
-                    <button>Our Services</button>
-                    <button>Receive Offers</button>
-                </div>
 
             </div>
         </div>
@@ -370,6 +386,7 @@
 
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 
 </html>

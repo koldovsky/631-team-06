@@ -35,6 +35,8 @@
 
 .button {
   font-size: 10px;
+  margin-top: 100px;
+  margin-left: -10px;
 }
 
 .container {
@@ -49,6 +51,14 @@
   justify-content: center;
   text-decoration: none;
   color: white;
+}
+
+.accordion-button {
+  margin-left: 60px;
+}
+
+.accordion-collapse-collapse-show {
+  margin-left: -960px;
 }
 
 .text-header {
@@ -180,32 +190,42 @@
 }
 
 .social-icons:hover {
-  margin-left: 2px;
+  margin-left: 20px;
   background-color: #fff;
-  border-radius: 1px;
+  border-radius: 0px;
 }
 
 .social-icons {
   display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 250px;
+  margin-top: -7px;
 }
 
-.bot:hover {
-  background-color: #fff;
-  border-radius: 2px;
+.accordion {
+  text-align: center;
+  margin-left: 150px;
+  margin-top: 200px;
+}
+
+
+.but {
   text-decoration: none;
-  padding-top: 100px;
+  position: relative;
+  margin-left: 500px;
+  width: 100%;
+text-align: left;
 }
 
-.tom:hover {
-  border-radius: 4px;
+.tom {
   text-decoration: none;
-  border-color:#2518e0 rgb(36, 21, 250) hsl(244, 90%, 54%) hsl(234, 87%, 39%);
-  border-style:solid;
-  border-width:1px;
-  background:#FFFF99;
-
+  border-style: solid;
+  margin-left: 500px;
+  position: relative;
+  width: 100%;
+text-align: left;
 }
-
 .menu-nav {
   display: flex;
 }
