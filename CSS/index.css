@@ -19,39 +19,115 @@
 }
 
 .accordion {
-  position: absolute;
-  text-align: center;
+ position: absolute;
+ text-align: center;
+ left: 200px;
   min-width: 1000px;
   max-width: 1550px;
+  opacity: 0,3;
 }
-.social-icons {
-  width: 50px;
+
+
+
+.social-icons-facebook {
+  position: relative;
+  bottom: 30px;
+left: 1100px;
+width: 50px;
   height: 50px;
   background-image: url(../img.icons8.com/fluency-systems-regular/48/000000/facebook-circled--v3.png);
   background-size: cover;
 }
-.social-icons:hover {
-background-image: url(../img.icons8.com/fluency-systems-regular/48/000000/facebook-circled--v3.png);
-background-color: white;
+
+.social-icons-facebook:hover {
+  background-image: url(../img.icons8.com/fluency-systems-regular/48/000000/facebook-circled--v3.png);
+  background-color: white;
 }
-.social-icons {
+
+.social-icons-inst {
+  position: relative;
+  bottom: 80px;
+  left: 1150px;
   width: 50px;
   height: 50px;
   background-image: url(../img.icons8.com/material-outlined/50/000000/instagram-new--v2.png);
   background-size: cover;
 }
-.social-icons:hover {
-background-image: url(../img.icons8.com/material-outlined/50/000000/instagram-new--v2.png);
 
-background-color: white;
+.social-icons-inst:hover {
+  background-image: url(../img.icons8.com/material-outlined/50/000000/instagram-new--v2.png);
+  background-color: white;
 }
-.social-icons{
+
+.social-icons-youtube {
+  position: relative;
+  bottom: 130px;
+  left: 1200px;
   width: 50px;
   height: 50px;
   background-image: url(../img.icons8.com/material-sharp/48/000000/youtube-play.png);
   background-size: cover;
 }
-.social-icons:hover {
-background-image: url(../img.icons8.com/material-sharp/48/000000/youtube-play.png);
-background-color: white;
+
+.social-icons-youtube:hover {
+  background-image: url(../img.icons8.com/material-sharp/48/000000/youtube-play.png);
+  background-color: white;
+}
+
+
+
+
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  position: absolute;
+  top: 30px;
+  font-weight: 700;
+  
+}
+.logo a:hover{
+  cursor: pointer;
+ color: gray;
+  opacity: 0,6;
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.button {
+  position: relative;
+  left: 5px;
+  top: 75px;
+}
+
+.menu-nav a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.menu-nav {
+  display: flex;
+  justify-content: center;
+}
+.menu-nav a:hover{
+  cursor: pointer;
+  color: gray;
+   opacity: 0,6;
+}
+.btn-primary{
+  position: relative;
+  top:50px;
+  }
+  
+.btn-secondary{
+  position: relative;
+  top: 50px;
+
 }
