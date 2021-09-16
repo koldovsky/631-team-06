@@ -19,21 +19,19 @@
 }
 
 .accordion {
- position: absolute;
- text-align: center;
- left: 200px;
+  position: absolute;
+  text-align: center;
+  left: 200px;
   min-width: 1000px;
   max-width: 1550px;
-  opacity: 0,3;
+  opacity: 0, 3;
 }
-
-
 
 .social-icons-facebook {
   position: relative;
   bottom: 30px;
-left: 1100px;
-width: 50px;
+  left: 1100px;
+  width: 50px;
   height: 50px;
   background-image: url(../img.icons8.com/fluency-systems-regular/48/000000/facebook-circled--v3.png);
   background-size: cover;
@@ -74,10 +72,6 @@ width: 50px;
   background-color: white;
 }
 
-
-
-
-
 .logo a {
   color: white;
   text-decoration: none;
@@ -85,33 +79,36 @@ width: 50px;
   position: absolute;
   top: 30px;
   font-weight: 700;
-  
-}
-.logo a:hover{
-  cursor: pointer;
- color: gray;
-  opacity: 0,6;
-     transition: all .07s ease-in-out;
 }
 
-.button a {
-  color: white;
+.logo a:hover {
+  cursor: pointer;
+  color: gray;
+  opacity: 0, 6;
+  transition: all .07s ease-in-out;
+}
+
+.button a{
   text-decoration: none;
   font-size: 16px;
+  color:white;
 }
 
 .button {
   position: relative;
   left: 5px;
   top: 75px;
- }
 
- .button a:hover{
+ 
+}
+
+.button a:hover {
+ cursor: pointer;
   color: gray;
-  opacity: 0,6;
-  transition: all .07s ease-in-out
-  border
- }
+  opacity: 0, 6;
+  transition: all .07s ease-in-out color;
+ 
+}
 
 .menu-nav a {
   color: white;
@@ -124,55 +121,94 @@ width: 50px;
   display: flex;
   justify-content: center;
 }
-.menu-nav a:hover{
+
+.menu-nav a:hover {
   cursor: pointer;
   color: gray;
-   opacity: 0,6;
-   transition: all .07s ease-in-out
-   
+  opacity: 0, 6;
+  transition: all .07s ease-in-out
 }
-.btn-primary{
-  position: relative;
-  top:50px;
-  }
-  
-.btn-secondary{
+
+.btn-primary {
   position: relative;
   top: 50px;
-
 }
-.consult-main{
-  background: linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/Strategy.consult.jpeg);  max-width: 1550px;
+
+.btn-secondary {
+  position: relative;
+  top: 50px;
+}
+
+.consult-main {
+  background: linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)), url(../img/Strategy.consult.jpeg);
+  max-width: 1550px;
   min-width: 320px;
 }
-.text-now{
+
+.text-now {
   color: white;
   font-size: 17px;
   position: relative;
   left: 0px;
 }
-.more-text{
+
+.more-text {
   color: white;
   font-size: 17px;
   position: relative;
   left: 0px;
 }
-.btn-read-more{
+
+.btn-read-more {
   color: white;
   position: relative;
   left: 600px;
   top: 130px;
   font-size: 19px;
 }
-.about{
+
+.about {
   top: 110px;
   font-size: 17px;
   color: white;
   position: relative;
   left: 650px;
 }
-.pages{
+
+.pages {
   position: relative;
   bottom: 360px;
   left: 130px;
+}
+
+.btn-read-more a{
+  color: white;
+}
+.map{
+  background: linear-gradient(to top, rgba(17, 17, 17, 0.678), rgba(0, 0, 0, 0.664)),url(../img/map.jpg);
+  max-width: 1550px;
+  min-width: 320px;
+  height: 300vh;
+}
+.roundabout{
+color: white;
+
+}
+.text-block{
+color: white;
+
+}
+.position{
+  display: flex;
+  justify-content: center;
+
+}
+@media screen {
+  .position{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    max-width: 1500px;
+  }
+  
 }
