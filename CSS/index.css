@@ -91,6 +91,7 @@ width: 50px;
   cursor: pointer;
  color: gray;
   opacity: 0,6;
+     transition: all .07s ease-in-out;
 }
 
 .button a {
@@ -103,7 +104,13 @@ width: 50px;
   position: relative;
   left: 5px;
   top: 75px;
-}
+ }
+
+ .button a:hover{
+  color: gray;
+  opacity: 0,6;
+  transition: all .07s ease-in-out
+ }
 
 .menu-nav a {
   color: white;
@@ -120,6 +127,8 @@ width: 50px;
   cursor: pointer;
   color: gray;
    opacity: 0,6;
+   transition: all .07s ease-in-out
+   
 }
 .btn-primary{
   position: relative;
