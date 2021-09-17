@@ -253,9 +253,13 @@
   color: white;
 }
 .tex-jp{
+  
   position: relative;
   left: 200px;
   bottom: 100px;
+}
+.tex-jp h5{
+  font-size: 16px;
 }
 .image-morgan{
   position: relative;
@@ -264,7 +268,14 @@
 }
 .but-web a{
   color: white;
+  position: relative;
   text-decoration: none;
   display: flex;
   justify-content: center;
+}
+.but-web a:hover{
+  cursor: pointer;
+  color: gray;
+  opacity: 0, 6;
+  transition: all .07s ease-in-out color;
 }
