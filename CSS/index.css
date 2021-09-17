@@ -444,3 +444,9 @@
   color: white;
   text-decoration: none;
 }
+hr {
+  border: none; 
+  background-color: #fffefe; 
+  color: hsl(0, 20%, 99%); 
+  height: 3px; 
+ }
