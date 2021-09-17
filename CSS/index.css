@@ -441,11 +441,27 @@ text-decoration: none;
   display: flex;
   justify-content: center;
   right: 40px;
+  bottom: 40px;
+}
+.goldman-boss{
+  position: relative;
+  right: 200px;
+  top: 30px;
+}
+.btn-p{
+  color: white;
+  text-decoration: none;
+  bottom: 40px;
 }
 
 .btn-p a {
   color: white;
   text-decoration: none;
+  bottom: 80px;
+}
+.tex-goldman{
+  position: relative;
+  bottom: 40px;
 }
 hr {
   border: none; 
