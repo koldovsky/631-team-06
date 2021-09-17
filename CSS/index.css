@@ -89,7 +89,10 @@
 }
 
 .button a {
-  text-decoration: none;
+  border-color:white;
+    border-width: 5px;
+    border-style: solid;
+text-decoration: none;
   font-size: 16px;
   color: white;
 }
@@ -102,7 +105,7 @@
 
 .button a:hover {
   cursor: pointer;
-  color: gray;
+  background-color: grey;
   opacity: 0, 6;
   transition: all .07s ease-in-out color;
 }
@@ -406,6 +409,13 @@
   display: flex;
   justify-content: center;
 }
+.btn-ibm a:hover{
+  cursor: pointer;
+  color: gray;
+  opacity: 0, 6;
+  transition: all .07s ease-in-out color;
+
+}
 
 .but-web a:hover {
   cursor: pointer;
@@ -448,13 +458,21 @@
 .btn-p{
   color: white;
   text-decoration: none;
-  bottom: 40px;
+ 
 }
 
 .btn-p a {
   color: white;
   text-decoration: none;
+  position: relative;
+  right: 190px;
   bottom: 80px;
+}
+.btn-p a:hover{
+  cursor: pointer;
+  color: gray;
+  opacity: 0, 6;
+  transition: all .07s ease-in-out color;
 }
 .tex-goldman{
   position: relative;
@@ -468,4 +486,37 @@ hr {
  }
  .Video{
    position: relative;
+   display: flex;
+   justify-content: center;
  }
+.adress{
+  position: relative;
+  display: flex;
+  justify-self: center;
+  top: 70px;
+  left: 150px;
+}
+.Kyiv{
+  position: relative;
+  display: flex;
+  justify-self: center;
+  top: 200px;
+  right: 300px;
+}
+.phone{
+  position: relative;
+  display: flex;
+left: 150px;
+top: 80px;
+}
+.number-phone{
+  position: relative;
+  display: flex;
+  top: 200px;
+  right: 300px;
+}
+.email{
+  position: relative;
+  display: flex;
+  
+}
