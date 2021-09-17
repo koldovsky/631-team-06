@@ -486,6 +486,7 @@
 }
 
 hr {
+
   border: none;
   background-color: #fffefe;
   color: hsl(0, 20%, 99%);
@@ -493,6 +494,52 @@ hr {
 }
 
 .footer {
+
+  border: none; 
+  background-color: #fffefe; 
+  color: hsl(0, 20%, 99%); 
+  height: 3px; 
+ }
+
+ .Video{
+   position: relative;
+   display: flex;
+   justify-content: center;
+ }
+.adress{
+  position: relative;
+  display: flex;
+  justify-self: center;
+  top: 70px;
+  left: 150px;
+}
+.Kyiv{
+  position: relative;
+  display: flex;
+  justify-self: center;
+  top: 200px;
+  right: 300px;
+}
+.phone{
+  position: relative;
+  display: flex;
+left: 150px;
+top: 80px;
+}
+.number-phone{
+  position: relative;
+  display: flex;
+  top: 200px;
+  right: 300px;
+}
+.email{
+  position: relative;
+  display: flex;
+  
+}
+
+ .footer{
+
   background-color: #141414;
   background-attachment: fixed;
 }
@@ -546,6 +593,7 @@ hr {
   font-size: 18px;
   padding: 10px;
 }
+
 
 .buttoms-footer a:hover {
   cursor: pointer;
@@ -627,3 +675,4 @@ hr {
   font-size: 16px ;
 
 }
+
