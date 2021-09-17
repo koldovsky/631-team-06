@@ -90,10 +90,10 @@
 }
 
 .button a {
-  border-color:white;
-    border-width: 5px;
-    border-style: solid;
-text-decoration: none;
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+  text-decoration: none;
   font-size: 16px;
   color: white;
 }
@@ -412,12 +412,12 @@ text-decoration: none;
   display: flex;
   justify-content: center;
 }
-.btn-ibm a:hover{
+
+.btn-ibm a:hover {
   cursor: pointer;
   color: gray;
   opacity: 0, 6;
   transition: all .07s ease-in-out color;
-
 }
 
 .but-web a:hover {
@@ -453,15 +453,16 @@ text-decoration: none;
   right: 40px;
   bottom: 40px;
 }
-.goldman-boss{
+
+.goldman-boss {
   position: relative;
   right: 200px;
   top: 30px;
 }
-.btn-p{
+
+.btn-p {
   color: white;
   text-decoration: none;
- 
 }
 
 .btn-p a {
@@ -471,40 +472,50 @@ text-decoration: none;
   right: 190px;
   bottom: 80px;
 }
-.btn-p a:hover{
+
+.btn-p a:hover {
   cursor: pointer;
   color: gray;
   opacity: 0, 6;
   transition: all .07s ease-in-out color;
 }
-.tex-goldman{
+
+.tex-goldman {
   position: relative;
   bottom: 40px;
 }
+
 hr {
-  border: none; 
-  background-color: #fffefe; 
-  color: hsl(0, 20%, 99%); 
-  height: 3px; 
- }
- .footer{
-  background-color: #141414;
-  background-attachment: fixed;
- }
-.support-company-footer{
-color: white;
-position: relative;
-top: 380px;
+  border: none;
+  background-color: #fffefe;
+  color: hsl(0, 20%, 99%);
+  height: 3px;
 }
 
-.main-text{
-  font-size: 24px;
+.footer {
+  background-color: #141414;
+  background-attachment: fixed;
+}
+
+.support-company-footer {
+  color: white;
+  position: relative;
+  left: 200px;
+  top: 440px;
+}
+
+.support-company-footer h3 {
+  font-size: 32px;
   position: relative;
   bottom: 50px;
+  font-weight: 700;
 }
-.main-text h3{
-  font-size: 26px;
+
+.support-company-footer h4 {
+  font-size: 16px;
+  position: relative;
 }
+
 .buttoms-footer {
   display: flex;
   flex-direction: column;
@@ -514,23 +525,105 @@ top: 380px;
   right: 270px;
   top: 185px;
 }
-.buttoms-footer a{
-color: white;
-text-decoration: none;
-font-size: 18px;
-padding: 10px;
 
-}
-.buttoms-footer-second{
-  display: flex;
-  flex-direction: column;
- align-items: center;
- position: relative;
- 
-}
-.buttoms-footer-second a{
+.buttoms-footer a {
   color: white;
   text-decoration: none;
   font-size: 18px;
   padding: 10px;
+}
+
+.buttoms-footer-second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.buttoms-footer-second a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.buttoms-footer a:hover {
+  cursor: pointer;
+  color: gray;
+  opacity: 0, 6;
+  transition: all .07s ease-in-out color;
+}
+
+.buttoms-footer-second a:hover {
+  cursor: pointer;
+  color: gray;
+  opacity: 0, 6;
+  transition: all .07s ease-in-out color;
+}
+
+.follow {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  bottom: 170px;
+  right: 460px;
+}
+
+.follow a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.follow a:hover {
+  cursor: pointer;
+  color: gray;
+  opacity: 0, 6;
+  transition: all .07s ease-in-out color;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  bottom: 140px;
+  right: 400px;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.subscribe h4 {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  bottom: 260px;
+  left: 400px;
+  color: white;
+  font-size: 16px;
+}
+
+.created-by {
+  color: white;
+  position: relative;
+  left: 200px;
+}
+.created-by h5{
+  font-size: 16px;
+}
+
+.rights-reserved {
+  color: white;
+  position: relative;
+  bottom: 30px;
+  right: 135px;
+  font-size: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+.rights-reserved h4{
+  font-size: 16px ;
+
 }
