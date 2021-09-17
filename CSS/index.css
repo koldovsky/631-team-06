@@ -16,6 +16,7 @@
   max-width: 1600px;
   align-items: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .accordion {
@@ -144,6 +145,7 @@ text-decoration: none;
   max-width: 1550px;
   min-width: 320px;
   height: 93vh;
+  background-attachment: fixed;
 }
 
 .text-now {
@@ -195,6 +197,7 @@ text-decoration: none;
   max-width: 1550px;
   min-width: 320px;
   height: 120vh;
+  background-attachment: fixed;
 }
 
 .roundabout {
@@ -484,6 +487,7 @@ hr {
   color: hsl(0, 20%, 99%); 
   height: 3px; 
  }
+<<<<<<< HEAD
  .Video{
    position: relative;
    display: flex;
@@ -520,3 +524,52 @@ top: 80px;
   display: flex;
   
 }
+=======
+ .footer{
+  background-color: #141414;
+  background-attachment: fixed;
+ }
+.support-company-footer{
+color: white;
+position: relative;
+top: 380px;
+}
+
+.main-text{
+  font-size: 24px;
+  position: relative;
+  bottom: 50px;
+}
+.main-text h3{
+  font-size: 26px;
+}
+.buttoms-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  right: 270px;
+  top: 185px;
+}
+.buttoms-footer a{
+color: white;
+text-decoration: none;
+font-size: 18px;
+padding: 10px;
+
+}
+.buttoms-footer-second{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ position: relative;
+ 
+}
+.buttoms-footer-second a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+}
+>>>>>>> 98d95dab08d14b4faaad1cfb1379771836c4725e
