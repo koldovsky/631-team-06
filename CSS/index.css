@@ -89,7 +89,10 @@
 }
 
 .button a {
-  text-decoration: none;
+  border-color:white;
+    border-width: 5px;
+    border-style: solid;
+text-decoration: none;
   font-size: 16px;
   color: white;
 }
@@ -102,7 +105,7 @@
 
 .button a:hover {
   cursor: pointer;
-  color: gray;
+  background-color: grey;
   opacity: 0, 6;
   transition: all .07s ease-in-out color;
 }
