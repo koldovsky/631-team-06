@@ -409,6 +409,13 @@ text-decoration: none;
   display: flex;
   justify-content: center;
 }
+.btn-ibm a:hover{
+  cursor: pointer;
+  color: gray;
+  opacity: 0, 6;
+  transition: all .07s ease-in-out color;
+
+}
 
 .but-web a:hover {
   cursor: pointer;
@@ -451,13 +458,21 @@ text-decoration: none;
 .btn-p{
   color: white;
   text-decoration: none;
-  bottom: 40px;
+ 
 }
 
 .btn-p a {
   color: white;
   text-decoration: none;
+  position: relative;
+  right: 190px;
   bottom: 80px;
+}
+.btn-p a:hover{
+  cursor: pointer;
+  color: gray;
+  opacity: 0, 6;
+  transition: all .07s ease-in-out color;
 }
 .tex-goldman{
   position: relative;
