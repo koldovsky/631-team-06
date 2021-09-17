@@ -487,44 +487,97 @@ hr {
   color: hsl(0, 20%, 99%); 
   height: 3px; 
  }
-<<<<<<< HEAD
  .Video{
    position: relative;
    display: flex;
    justify-content: center;
+   bottom: 50px;
  }
 .adress{
   position: relative;
   display: flex;
   justify-self: center;
-  top: 70px;
+  top: 120px;
   left: 150px;
 }
 .Kyiv{
   position: relative;
   display: flex;
   justify-self: center;
-  top: 200px;
+  top: 250px;
   right: 300px;
 }
 .phone{
   position: relative;
   display: flex;
 left: 150px;
-top: 80px;
+top: 140px;
 }
 .number-phone{
   position: relative;
   display: flex;
-  top: 200px;
+  top: 255px;
   right: 300px;
 }
 .email{
   position: relative;
   display: flex;
-  
+  top: 260px;
+  right: 300px;
+  }
+  .email h3{
+    font-size: 34px;
+  }
+  .sup-email{
+    position: relative;
+  display: flex;
+  top: 260px;
+  right: 300px;
+  }
+  .name-mail{
+    position: relative;
+    display: flex;
+    top: 180px;
+    left: 150px;
+    height: 50px;
+    width: 1000px;
+    border: 2px solid hsl(241, 86%, 46%);
 }
-=======
+  .second-mail{
+    position: relative;
+    display: flex;
+    top: 180px;
+    left: 150px;
+    height: 50px;
+    width: 1000px;
+    border: 2px solid hsl(241, 86%, 46%);
+    background-color: black;
+  }
+  .colorpassword{
+    background-color: black;
+  }
+  .colorlogin{
+    background-color: black;
+  }
+  .btn-info{
+    position: relative;
+    display: flex;
+    left: 198px;
+    bottom: 115px;
+    justify-content: center;
+    width: 1000px;
+  }
+  .silver-email{
+    background: linear-gradient(to top, #2e2a2aad, rgba(0, 0, 0, 0.664));
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 90vh;
+  max-width: 1280px;
+  align-items: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: 50px;
+  }
  .footer{
   background-color: #141414;
   background-attachment: fixed;
@@ -572,4 +625,3 @@ padding: 10px;
   font-size: 18px;
   padding: 10px;
 }
->>>>>>> 98d95dab08d14b4faaad1cfb1379771836c4725e
