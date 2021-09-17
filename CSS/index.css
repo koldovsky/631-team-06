@@ -196,10 +196,17 @@
 
 .text-block {
   color: white;
+  font-size: 13px;
 }
 
 .text-block a {
   color: white;
+}
+
+.text-block-more a {
+  color: white;
+  position: relative;
+  top: 150px;
 }
 
 .text-block a:hover {
@@ -217,74 +224,85 @@
 @media screen {
   .position {
     display: grid;
-    grid-template-columns: 8% 8% 8% 8% 8%1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 8% 8% 8% 8% 8% 1fr 1fr 1fr 1fr 1fr;
     max-width: 1500px;
   }
 }
-.bottom-part{
+
+.bottom-part {
   background-color: #141414;
   max-width: 1550px;
   min-width: 320px;
 }
-.partners{
+
+.partners {
   color: white;
   text-align: center;
   position: relative;
   top: 30px;
 }
-.jp{
+
+.jp {
   color: white;
   position: relative;
   left: 260px;
   top: 20px;
 }
-.berkshire{
+
+.berkshire {
   color: white;
 }
-.ibm{
+
+.ibm {
   color: white;
 }
-.goldman-sachs{
+
+.goldman-sachs {
   color: white;
 }
-.page-email{
+
+.page-email {
   color: white;
 }
-.bottom{
+
+.bottom {
   color: white;
 }
-.jp h3{
+
+.jp h3 {
   font-size: 24px;
-
-
 }
-.tex-jp{
+
+.tex-jp {
   position: relative;
   left: 200px;
   bottom: 50px;
 }
-.tex-jp h5{
+
+.tex-jp h5 {
   font-size: 16px;
 }
-.image-morgan{
+
+.image-morgan {
   position: relative;
   left: 50px;
   top: 100px;
 }
-.but-web{
-position: relative;
-right: 235px;
 
-
+.but-web {
+  position: relative;
+  right: 235px;
 }
-.but-web a{
+
+.but-web a {
   color: white;
   position: relative;
   text-decoration: none;
   display: flex;
   justify-content: center;
 }
-.but-web a:hover{
+
+.but-web a:hover {
   cursor: pointer;
   color: gray;
   opacity: 0, 6;
