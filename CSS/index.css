@@ -221,70 +221,177 @@
     max-width: 1500px;
   }
 }
-.bottom-part{
+
+.bottom-part {
   background-color: #141414;
   max-width: 1550px;
   min-width: 320px;
 }
-.partners{
+
+.partners {
   color: white;
   text-align: center;
   position: relative;
   top: 30px;
 }
-.jp{
+
+.jp {
   color: white;
   position: relative;
   left: 260px;
   top: 20px;
 }
-.berkshire{
+
+.berkshire {
   color: white;
 }
-.ibm{
+
+.ibm {
   color: white;
 }
-.goldman-sachs{
+
+.goldman-sachs {
   color: white;
 }
-.page-email{
+
+.page-email {
   color: white;
 }
-.bottom{
+
+.bottom {
   color: white;
 }
-.jp h3{
+
+.jp h3 {
   font-size: 24px;
-
-
 }
-.tex-jp{
+
+.tex-jp {
   position: relative;
   left: 200px;
   bottom: 50px;
 }
-.tex-jp h5{
+
+.tex-jp h5 {
   font-size: 16px;
 }
-.image-morgan{
+
+.image-morgan {
   position: relative;
   left: 50px;
   top: 100px;
 }
-.but-web{
-position: relative;
-right: 235px;
 
-
+.but-web {
+  position: relative;
+  right: 235px;
 }
-.but-web a{
+
+.but-web a {
   color: white;
   position: relative;
   text-decoration: none;
   display: flex;
   justify-content: center;
 }
-.but-web a:hover{
+
+.but-web a:hover {
+  cursor: pointer;
+  color: gray;
+  opacity: 0, 6;
+  transition: all .07s ease-in-out color;
+}
+
+.berkshire {
+  position: relative;
+  left: 50px;
+  top: 100px;
+}
+
+.Hathaway {
+  color: white;
+  position: relative;
+  left: 200px;
+  bottom: 130px;
+}
+
+.Hathaway h2 {
+  font-size: 24px;
+}
+
+.text-hathaway {
+  position: relative;
+  left: 405px;
+  bottom: 220px;
+}
+
+.text-hathaway h5 {
+  font-size: 16px;
+}
+
+.but-hathaway {
+  position: relative;
+  bottom: 180px;
+  right: 283px;
+}
+
+.but-hathaway a {
+  color: white;
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.but-hathaway a:hover {
+  cursor: pointer;
+  color: gray;
+  opacity: 0, 6;
+  transition: all .07s ease-in-out color;
+}
+
+.page-ibm {
+  position: relative;
+  left: 50px;
+  top: 0px;
+}
+
+.ibm-bos {
+  color: white;
+  position: relative;
+  left: 250px;
+  bottom: 110px;
+}
+
+.ibm-bos h2 {
+  font-size: 34px;
+}
+
+.text-ibm {
+  position: relative;
+  left: 455px;
+  bottom: 170px;
+}
+
+.text-ibm h5 {
+  font-size: 16px;
+}
+
+.btn-ibm {
+  position: relative;
+  right: 233px;
+  bottom: 130px;
+}
+
+.btn-ibm a {
+  color: white;
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-ibm a:hover {
   cursor: pointer;
   color: gray;
   opacity: 0, 6;
