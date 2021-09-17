@@ -500,46 +500,98 @@ hr {
   color: hsl(0, 20%, 99%); 
   height: 3px; 
  }
-
  .Video{
    position: relative;
    display: flex;
    justify-content: center;
+   bottom: 50px;
  }
 .adress{
   position: relative;
   display: flex;
   justify-self: center;
-  top: 70px;
+  top: 120px;
   left: 150px;
 }
 .Kyiv{
   position: relative;
   display: flex;
   justify-self: center;
-  top: 200px;
+  top: 250px;
   right: 300px;
 }
 .phone{
   position: relative;
   display: flex;
 left: 150px;
-top: 80px;
+top: 140px;
 }
 .number-phone{
   position: relative;
   display: flex;
-  top: 200px;
+  top: 255px;
   right: 300px;
 }
 .email{
   position: relative;
   display: flex;
-  
+  top: 260px;
+  right: 300px;
+  }
+  .email h3{
+    font-size: 34px;
+  }
+  .sup-email{
+    position: relative;
+  display: flex;
+  top: 260px;
+  right: 300px;
+  }
+  .name-mail{
+    position: relative;
+    display: flex;
+    top: 180px;
+    left: 150px;
+    height: 50px;
+    width: 1000px;
+    border: 2px solid hsl(241, 86%, 46%);
 }
-
- .footer{
-
+  .second-mail{
+    position: relative;
+    display: flex;
+    top: 180px;
+    left: 150px;
+    height: 50px;
+    width: 1000px;
+    border: 2px solid hsl(241, 86%, 46%);
+    background-color: black;
+  }
+  .colorpassword{
+    background-color: black;
+  }
+  .colorlogin{
+    background-color: black;
+  }
+  .btn-info{
+    position: relative;
+    display: flex;
+    left: 198px;
+    bottom: 115px;
+    justify-content: center;
+    width: 1000px;
+  }
+  .silver-email{
+    background: linear-gradient(to top, #2e2a2aad, rgba(0, 0, 0, 0.664));
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 90vh;
+  max-width: 1280px;
+  align-items: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: 50px;
+  }
+ .Footer{
   background-color: #141414;
   background-attachment: fixed;
 }
@@ -547,8 +599,8 @@ top: 80px;
 .support-company-footer {
   color: white;
   position: relative;
-  left: 200px;
-  top: 440px;
+  left: 100px;
+  top: 150px;
 }
 
 .support-company-footer h3 {
@@ -569,8 +621,8 @@ top: 80px;
   align-items: center;
   justify-content: center;
   position: relative;
-  right: 270px;
-  top: 185px;
+  right: 280px;
+  bottom: 130px;
 }
 
 .buttoms-footer a {
@@ -585,6 +637,8 @@ top: 80px;
   flex-direction: column;
   align-items: center;
   position: relative;
+  bottom: 317px;
+  right: 10px;
 }
 
 .buttoms-footer-second a {
@@ -593,7 +647,6 @@ top: 80px;
   font-size: 18px;
   padding: 10px;
 }
-
 
 .buttoms-footer a:hover {
   cursor: pointer;
@@ -613,8 +666,8 @@ top: 80px;
   display: flex;
   justify-content: flex-end;
   position: relative;
-  bottom: 170px;
-  right: 460px;
+  bottom: 493px;
+  right: 470px;
 }
 
 .follow a {
@@ -629,20 +682,6 @@ top: 80px;
   opacity: 0, 6;
   transition: all .07s ease-in-out color;
 }
-
-.social-icons {
-  display: flex;
-  justify-content: flex-end;
-  position: relative;
-  bottom: 140px;
-  right: 400px;
-}
-
-.subscribe {
-  display: flex;
-  justify-content: flex-end;
-}
-
 .subscribe h4 {
   display: flex;
   align-items: flex-start;
@@ -651,6 +690,12 @@ top: 80px;
   left: 400px;
   color: white;
   font-size: 16px;
+}
+.buttom-subscribe a{
+  position: relative;
+  display: flex;
+  bottom: 500px;
+  left: 1000px;
 }
 
 .created-by {
@@ -671,8 +716,59 @@ top: 80px;
   display: flex;
   justify-content: flex-end;
 }
-.rights-reserved h4{
-  font-size: 16px ;
-
+.rights-reserved h4 {
+  font-size: 16px;
+}
+.social-icons-facebookk {
+  position: relative;
+  bottom: 460px;
+  left: 930px;
+  width: 50px;
+  height: 50px;
+  background-image: url(../img.icons8.com/fluency-systems-regular/48/000000/facebook-circled--v3.png);
+  background-size: cover;
 }
 
+.social-icons-facebookk:hover {
+  background-image: url(../img.icons8.com/fluency-systems-regular/48/000000/facebook-circled--v3.png);
+  background-color: white;
+}
+
+.social-icons-instg {
+  position: relative;
+  bottom: 511px;
+  left: 990px;
+  width: 50px;
+  height: 50px;
+  background-image: url(../img.icons8.com/material-outlined/50/000000/instagram-new--v2.png);
+  background-size: cover;
+}
+
+.social-icons-instg:hover {
+  background-image: url(../img.icons8.com/material-outlined/50/000000/instagram-new--v2.png);
+  background-color: white;
+}
+
+.social-icons-youtub {
+  position: relative;
+  bottom: 560px;
+  left: 1050px;
+  width: 50px;
+  height: 50px;
+  background-image: url(../img.icons8.com/material-sharp/48/000000/youtube-play.png);
+  background-size: cover;
+}
+
+.social-icons-youtub:hover {
+  background-image: url(../img.icons8.com/material-sharp/48/000000/youtube-play.png);
+  background-color: white;
+}
+.last-mail{
+  position: relative;
+  display: flex;
+  height: 50px;
+  
+}
+.colorpasswords{
+  background-color: rgb(85, 84, 84);
+}
