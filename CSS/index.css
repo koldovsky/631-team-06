@@ -16,6 +16,7 @@
   max-width: 1600px;
   align-items: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .accordion {
@@ -141,6 +142,7 @@
   max-width: 1550px;
   min-width: 320px;
   height: 93vh;
+  background-attachment: fixed;
 }
 
 .text-now {
@@ -188,6 +190,7 @@
   max-width: 1550px;
   min-width: 320px;
   height: 120vh;
+  background-attachment: fixed;
 }
 
 .roundabout {
@@ -226,6 +229,7 @@
   background-color: #141414;
   max-width: 1550px;
   min-width: 320px;
+  background-attachment: fixed;
 }
 
 .partners {
