@@ -791,3 +791,63 @@ color: teal;
 .colorpasswords{
   background-color: rgb(85, 84, 84);
 }
+.burger-icon {
+  font-size: 3.5rem;
+}
+
+.burger-icon:hover {
+  cursor: pointer;
+}
+
+#burger-checkbox {
+  display: none;
+}
+
+header nav .button{
+ display: none;
+}
+header nav .menu-nav{
+ display: none;
+}
+header nav .social-icons-facebook a{
+ display: none;
+}
+header nav.social-icons-inst a{
+ display: none;
+}
+header nav .social-icons-youtube a{
+ display: none;
+}
+header nav input:checked ~ .menu-nav {
+  display: flex;
+}
+header nav input:checked ~ .button{
+  display: flex;
+}header nav input:checked ~ .social-icons-facebook a{
+  display: flex;
+}header nav input:checked ~ .social-icons-inst a{
+  display: flex;
+}header nav input:checked ~ .social-icons-youtube a{
+  display: flex;
+}
+@media (min-width: 614px) {
+  .burger-icon {
+      display: none;
+  
+  }
+   header nav .button{
+    display: flex;
+  }
+  header nav .menu-nav{
+    display: flex;
+    }
+ header nav .social-icons-facebook a{
+    display: flex;
+  }
+  header nav.social-icons-inst a{
+    display: flex;
+  }
+  header nav .social-icons-youtube a{
+    display: flex;
+  }
+}
