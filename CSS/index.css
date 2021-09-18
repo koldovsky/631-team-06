@@ -832,8 +832,7 @@ header nav input:checked ~ .button{
 }
 @media (min-width: 614px) {
   .burger-icon {
-      display: none;
-  
+    display: flex;
   }
    header nav .button{
     display: flex;
@@ -842,12 +841,12 @@ header nav input:checked ~ .button{
     display: flex;
     }
  header nav .social-icons-facebook a{
-    display: flex;
+  display: flex;
   }
   header nav.social-icons-inst a{
     display: flex;
   }
   header nav .social-icons-youtube a{
-    display: flex;
+   display: flex;
   }
 }
