@@ -91,8 +91,9 @@
 
 .button a {
   border-color: white;
-  border-width: 5px;
+  border-width: 3px;
   border-style: solid;
+  padding: 10px;
   text-decoration: none;
   font-size: 16px;
   color: white;
@@ -101,7 +102,7 @@
 .button {
   position: relative;
   left: 5px;
-  top: 75px;
+  top: 80px;
 }
 
 .button a:hover {
@@ -234,8 +235,8 @@
 @media screen {
   .position {
     display: grid;
-    grid-template-columns: 8% 8% 8% 8% 8% 1fr 1fr 1fr 1fr 1fr;
-    max-width: 1500px;
+    grid-template-columns: 8% 8% 8% 8% 8%  1fr 1fr 1fr 1fr 1fr;
+   max-width: 1500px;
   }
 }
 
@@ -686,24 +687,34 @@ top: 140px;
   display: flex;
   align-items: flex-start;
   position: relative;
-  bottom: 260px;
-  left: 400px;
+  bottom: 660px;
+  left: 1170px;
   color: white;
   font-size: 16px;
 }
 .buttom-subscribe a{
   position: relative;
+  background: hsl(234, 88%, 35%);
+  padding: 13px;
+  font-size: 17px;
+  width: 205px;
+  color: white;
+  text-decoration: none;
   display: flex;
-  bottom:500px;
-  left: 1000px;
- 
-  
+  bottom: 600px;
+  left: 1165px;
+  justify-content: center;
+}
+.buttom-subscribe a:hover{
+background: white;
+color: teal;
 }
 
 .created-by {
   color: white;
   position: relative;
-  left: 200px;
+  bottom: 530px;
+  left: 100px;
 }
 .created-by h5{
   font-size: 16px;
@@ -712,8 +723,8 @@ top: 140px;
 .rights-reserved {
   color: white;
   position: relative;
-  bottom: 30px;
-  right: 135px;
+  bottom: 547px;
+  right: 155px;
   font-size: 16px;
   display: flex;
   justify-content: flex-end;
@@ -768,7 +779,13 @@ top: 140px;
 .last-mail{
   position: relative;
   display: flex;
+  justify-content: flex-end;
+  bottom: 620px;
+  right: 150px;
+  
+ 
   height: 50px;
+  
   
 }
 .colorpasswords{
