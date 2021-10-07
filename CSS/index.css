@@ -856,4 +856,15 @@ header nav input:checked ~ .button{
     display: flex;
   }
 }
+.clock{
+  display: flex;
+  position: relative;
+  top: 40px;
+  color:blue;
+}
+.conver {
+  display: flex;
+  position:relative;
+  top: 40px;
+}
 
