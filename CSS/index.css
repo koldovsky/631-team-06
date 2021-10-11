@@ -20,12 +20,9 @@
 }
 
 .accordion {
-  position: absolute;
   text-align: center;
-  left: 200px;
-  min-width: 1000px;
-  max-width: 1550px;
-  opacity: 0, 3;
+  margin-left: 100px; 
+  margin-right: 100px; 
 }
 
 .social-icons-facebook {
@@ -859,12 +856,13 @@ header nav input:checked ~ .button{
 .clock{
   display: flex;
   position: relative;
+  left: 50px;
   top: 40px;
-  color:blue;
+  color:white;
+  font-weight: 700px;
 }
 .conver {
   display: flex;
   position:relative;
   top: 40px;
 }
-
