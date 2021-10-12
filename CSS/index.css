@@ -224,19 +224,6 @@
   transition: all .07s ease-in-out;
 }
 
-.position {
-  display: flex;
-  justify-content: center;
-}
-
-@media screen {
-  .position {
-    display: grid;
-    grid-template-columns: 8% 8% 8% 8% 8%  1fr 1fr 1fr 1fr 1fr;
-   max-width: 1500px;
-  }
-}
-
 .bottom-part {
   background-color: #141414;
   max-width: 1550px;
@@ -865,4 +852,14 @@ header nav input:checked ~ .button{
   display: flex;
   position:relative;
   top: 40px;
+}
+
+.carousel-inner{
+  max-width: 1000px;
+  position: relative;
+  left: 255px;
+}
+.easy{
+  display: flex;
+  justify-content: center;
 }
